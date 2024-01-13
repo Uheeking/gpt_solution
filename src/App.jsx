@@ -2,7 +2,7 @@ import { useState } from "react";
 import { CallGPT } from "./api/gpt";
 import DiaryInput from "./components/DiaryInput";
 import styled from "styled-components";
-// import DiaryDisplay from "./components/DiaryDisplay";
+import DiaryDisplay from "./components/DiaryDisplay";
 import { message } from "antd";
 
 const dummyData = JSON.parse(
@@ -47,9 +47,9 @@ function App() {
         isLoading={isLoading}
         onSubmit={handleSubmit}
       />
-      {/* <div id="capture">
+      <div id="capture">
         <DiaryDisplay isLoading={isLoading} data={data} />
-      </div> */}
+      </div>
     </AppConatiner>
   );
 }

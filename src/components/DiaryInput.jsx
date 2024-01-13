@@ -1,4 +1,4 @@
-import { Input, Button, message } from "antd";
+import { Input, Button } from "antd";
 import { useState } from "react";
 import { Title } from "./CommonStyles";
 import styled from "styled-components";
