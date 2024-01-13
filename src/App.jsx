@@ -40,7 +40,7 @@ function App() {
     <AppConatiner>
       {contextHolder}
       <AppTitle>
-        심리상담사 GPT, AI 회고록
+        내 고민을 GPT에게 말해줘
       </AppTitle>
       <DiaryInput
         messageApi={messageApi}

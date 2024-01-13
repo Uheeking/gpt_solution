@@ -45,7 +45,7 @@ const DiaryInput = ({ isLoading, onSubmit, messageApi }) => {
 
   return (
     <div>
-      <Title>오늘의 일;</Title>
+      <Title>내 고민</Title>
       <TextArea
         value={userInput}
         onChange={handleUserInput}
@@ -54,7 +54,7 @@ const DiaryInput = ({ isLoading, onSubmit, messageApi }) => {
       />
       <ButtonContainer>
         <Button loading={isLoading} onClick={handleClick}>
-          GPT 회고록을 작성해줘!
+          GPT 솔루션을 제시해줘!
         </Button>
         <Button
           icon={<FileImageOutlined />}
