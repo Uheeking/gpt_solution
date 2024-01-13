@@ -54,7 +54,7 @@ import {
         <CardContainer>
           <CardTitle>
             <HeartTwoTone twoToneColor="#FFB7B2" style={{ marginRight: "6px" }} />
-            감성일기장
+            감정일기장
           </CardTitle>
           <CardContent>{data.emotional_content}</CardContent>
         </CardContainer>
